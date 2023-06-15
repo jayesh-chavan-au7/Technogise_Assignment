@@ -1,7 +1,7 @@
 import { IBorrowDetails } from './';
 
 export interface IBook {
-  id: number;
+  id: string;
   title: string;
   description: string;
   author: string;

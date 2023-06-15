@@ -130,8 +130,6 @@
   "include": [
     "./src/**/*.ts",
     "./src/MOCK/*.json",
+    "./src/**/*.test.ts"
   ],
-  "exclude": [
-    "./src/**/*.test.ts",
-  ]
 }

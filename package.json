@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "rm -rf ./dist && tsc && jest",
     "build": "rm -rf ./dist && tsc",
     "start:dev": "ts-node src/main.ts",
     "start": "npm run build && node dist/main.js"
