@@ -1,7 +1,7 @@
+import { IBaseSchema } from '../BaseSchema';
 import { IBorrowDetails } from './';
 
-export interface IBook {
-  id: string;
+export interface IBook extends IBaseSchema{
   title: string;
   description: string;
   author: string;
@@ -13,8 +13,6 @@ export interface IBook {
   tags: string[];
   category: string;
   language: string;
-  createdAt: Date;
-  updatedAt?: Date;
   isAvailable: boolean;
   numberOfCopies: number;
   borrowDetails: IBorrowDetails[];

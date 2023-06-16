@@ -121,6 +121,12 @@
       "@dtos/*": [
         "./src/types/DTOs/index.ts"
       ],
+      "@config/*": [
+        "src/utils/config/index.ts"
+      ],
+      "@utils/*": [
+        "src/utils/index.ts"
+      ],
       "*": [
         "node_modules/*",
         "src/types/*"

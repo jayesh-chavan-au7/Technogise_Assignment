@@ -1,13 +1,9 @@
-import { IBorrowedBooksDetails, IUserSubscription } from '.'
+import { IBorrowedBooksByUser, IUserSubscription } from '.'
+import { IBaseSchema } from '../BaseSchema';
 
-export interface IUser {
-  id: number;
+export interface IUser extends IBaseSchema {
   firstName: string;
   lastName: string;
   subscription:IUserSubscription;
-  createdAt: Date;
-  updatedAt?: Date;
-  borrowedBooks: IBorrowedBooksDetails[];
-  borrowedAt?: Date;
-  dueDate?: Date;
+  borrowedBooksByUser: IBorrowedBooksByUser[];
 }
