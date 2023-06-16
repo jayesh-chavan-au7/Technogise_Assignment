@@ -1,6 +1,7 @@
 import { IModelDetails } from 'ModelDetails';
+import { config } from '@config/';
 
 export const bookModelDetails: IModelDetails = {
   name: 'Book',
-  path: '../../dist/MOCK/BOOK_MOCK.json',
+  path: config.bookModelPath,
 };

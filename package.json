@@ -44,7 +44,10 @@
     "@service": "dist/service/",
     "@controller": "dist/controller/",
     "@entities": "dist/entities/",
-    "@dtos": "dist/types/DTOs/"
+    "@dtos": "dist/types/DTOs/",
+    "@config": "dist/utils/config/",
+    "@utils": "dist/utils/"
+
   },
   "dependencies": {
     "chalk": "^5.2.0",

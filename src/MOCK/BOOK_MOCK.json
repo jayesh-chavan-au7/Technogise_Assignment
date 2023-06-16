@@ -17,7 +17,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": true,
-    "numberOfCopies": 1,
+    "numberOfCopies": 3,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -50,7 +50,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": true,
-    "numberOfCopies": 2,
+    "numberOfCopies": 3,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -83,7 +83,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": false,
-    "numberOfCopies": 9,
+    "numberOfCopies": 3,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -121,7 +121,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": false,
-    "numberOfCopies": 8,
+    "numberOfCopies": 2,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -187,7 +187,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": false,
-    "numberOfCopies": 1,
+    "numberOfCopies": 3,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -225,7 +225,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": true,
-    "numberOfCopies": 1,
+    "numberOfCopies": 6,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -301,7 +301,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": true,
-    "numberOfCopies": 1,
+    "numberOfCopies": 6,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -349,7 +349,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": false,
-    "numberOfCopies": 7,
+    "numberOfCopies": 1,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -410,7 +410,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": false,
-    "numberOfCopies": 2,
+    "numberOfCopies": 5,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -458,7 +458,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": true,
-    "numberOfCopies": 3,
+    "numberOfCopies": 6,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -506,7 +506,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": true,
-    "numberOfCopies": 1,
+    "numberOfCopies": 4,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -544,7 +544,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": false,
-    "numberOfCopies": 2,
+    "numberOfCopies": 1,
     "borrowDetails": [
       {
         "borrowedBy": "1",
@@ -754,7 +754,7 @@
     "createdAt": "2023-06-14T07:23:59.186Z",
     "updatedAt": "2023-06-14T07:23:59.186Z",
     "isAvailable": false,
-    "numberOfCopies": 8,
+    "numberOfCopies": 2,
     "borrowDetails": [
       {
         "borrowedBy": "1",

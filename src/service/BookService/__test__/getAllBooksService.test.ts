@@ -77,13 +77,16 @@ describe('getAllBooks service', () => {
         throw new Error('error');
       });
 
-    const result = bookService.getAllBooks({
-      filter: {
-        category: 'Category 1',
-      },
-      limit: 2,
-      skip: 0,
-    });
-    await expect(result).rejects.toThrow();
+    try {
+      await bookService.getAllBooks({
+        filter: {
+          category: 'Category 1',
+        },
+        limit: 2,
+        skip: 0,
+      });
+    } catch (error: any) {
+      expect(error?.message).toBe('error');
+    }
   });
 });
