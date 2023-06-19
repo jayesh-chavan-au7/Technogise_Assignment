@@ -1,0 +1,772 @@
+[
+  {
+    "id": "1",
+    "title": "Book 1",
+    "description": "Description of Book 1",
+    "author": "Author 1",
+    "publisher": "Publisher 1",
+    "avarageRating": 4,
+    "totalRatings": 55,
+    "totalReviews": 30,
+    "price": 52,
+    "tags": [
+      "Tag 1"
+    ],
+    "category": "Category 1",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 3,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 0
+  },
+  {
+    "id": "2",
+    "title": "Book 2",
+    "description": "Description of Book 2",
+    "author": "Author 2",
+    "publisher": "Publisher 2",
+    "avarageRating": 4,
+    "totalRatings": 28,
+    "totalReviews": 47,
+    "price": 58,
+    "tags": [
+      "Tag 2"
+    ],
+    "category": "Category 2",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 3,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 3
+  },
+  {
+    "id": "3",
+    "title": "Book 3",
+    "description": "Description of Book 3",
+    "author": "Author 3",
+    "publisher": "Publisher 3",
+    "avarageRating": 4,
+    "totalRatings": 54,
+    "totalReviews": 13,
+    "price": 17,
+    "tags": [
+      "Tag 3"
+    ],
+    "category": "Category 3",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": false,
+    "numberOfCopies": 3,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 0
+  },
+  {
+    "id": "4",
+    "title": "Book 4",
+    "description": "Description of Book 4",
+    "author": "Author 4",
+    "publisher": "Publisher 4",
+    "avarageRating": 4,
+    "totalRatings": 94,
+    "totalReviews": 14,
+    "price": 46,
+    "tags": [
+      "Tag 4"
+    ],
+    "category": "Category 4",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": false,
+    "numberOfCopies": 2,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 4
+  },
+  {
+    "id": "5",
+    "title": "Book 5",
+    "description": "Description of Book 5",
+    "author": "Author 5",
+    "publisher": "Publisher 5",
+    "avarageRating": 1,
+    "totalRatings": 89,
+    "totalReviews": 31,
+    "price": 51,
+    "tags": [
+      "Tag 5"
+    ],
+    "category": "Category 5",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": false,
+    "numberOfCopies": 2,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 4
+  },
+  {
+    "id": "6",
+    "title": "Book 6",
+    "description": "Description of Book 6",
+    "author": "Author 6",
+    "publisher": "Publisher 6",
+    "avarageRating": 1,
+    "totalRatings": 63,
+    "totalReviews": 0,
+    "price": 21,
+    "tags": [
+      "Tag 6"
+    ],
+    "category": "Category 6",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": false,
+    "numberOfCopies": 3,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 2
+  },
+  {
+    "id": "7",
+    "title": "Book 7",
+    "description": "Description of Book 7",
+    "author": "Author 7",
+    "publisher": "Publisher 7",
+    "avarageRating": 1,
+    "totalRatings": 54,
+    "totalReviews": 10,
+    "price": 46,
+    "tags": [
+      "Tag 7"
+    ],
+    "category": "Category 7",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 6,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "4",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "5",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 3
+  },
+  {
+    "id": "8",
+    "title": "Book 8",
+    "description": "Description of Book 8",
+    "author": "Author 8",
+    "publisher": "Publisher 8",
+    "avarageRating": 5,
+    "totalRatings": 79,
+    "totalReviews": 9,
+    "price": 26,
+    "tags": [
+      "Tag 8"
+    ],
+    "category": "Category 8",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 9,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 1
+  },
+  {
+    "id": "9",
+    "title": "Book 9",
+    "description": "Description of Book 9",
+    "author": "Author 9",
+    "publisher": "Publisher 9",
+    "avarageRating": 2,
+    "totalRatings": 95,
+    "totalReviews": 45,
+    "price": 56,
+    "tags": [
+      "Tag 9"
+    ],
+    "category": "Category 9",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 6,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "4",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "5",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 4
+  },
+  {
+    "id": "10",
+    "title": "Book 10",
+    "description": "Description of Book 10",
+    "author": "Author 10",
+    "publisher": "Publisher 10",
+    "avarageRating": 5,
+    "totalRatings": 37,
+    "totalReviews": 28,
+    "price": 47,
+    "tags": [
+      "Tag 10"
+    ],
+    "category": "Category 10",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": false,
+    "numberOfCopies": 1,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 0
+  },
+  {
+    "id": "11",
+    "title": "Book 11",
+    "description": "Description of Book 11",
+    "author": "Author 11",
+    "publisher": "Publisher 11",
+    "avarageRating": 1,
+    "totalRatings": 93,
+    "totalReviews": 43,
+    "price": 28,
+    "tags": [
+      "Tag 11"
+    ],
+    "category": "Category 11",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 8,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 1
+  },
+  {
+    "id": "12",
+    "title": "Book 12",
+    "description": "Description of Book 12",
+    "author": "Author 12",
+    "publisher": "Publisher 12",
+    "avarageRating": 1,
+    "totalRatings": 70,
+    "totalReviews": 40,
+    "price": 16,
+    "tags": [
+      "Tag 12"
+    ],
+    "category": "Category 12",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": false,
+    "numberOfCopies": 5,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "4",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "5",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 2
+  },
+  {
+    "id": "13",
+    "title": "Book 13",
+    "description": "Description of Book 13",
+    "author": "Author 13",
+    "publisher": "Publisher 13",
+    "avarageRating": 5,
+    "totalRatings": 78,
+    "totalReviews": 32,
+    "price": 35,
+    "tags": [
+      "Tag 13"
+    ],
+    "category": "Category 13",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 6,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "4",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "5",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 1
+  },
+  {
+    "id": "14",
+    "title": "Book 14",
+    "description": "Description of Book 14",
+    "author": "Author 14",
+    "publisher": "Publisher 14",
+    "avarageRating": 1,
+    "totalRatings": 19,
+    "totalReviews": 31,
+    "price": 19,
+    "tags": [
+      "Tag 14"
+    ],
+    "category": "Category 14",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 4,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 3
+  },
+  {
+    "id": "15",
+    "title": "Book 15",
+    "description": "Description of Book 15",
+    "author": "Author 15",
+    "publisher": "Publisher 15",
+    "avarageRating": 4,
+    "totalRatings": 97,
+    "totalReviews": 35,
+    "price": 39,
+    "tags": [
+      "Tag 15"
+    ],
+    "category": "Category 15",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": false,
+    "numberOfCopies": 1,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 4
+  },
+  {
+    "id": "16",
+    "title": "Book 16",
+    "description": "Description of Book 16",
+    "author": "Author 16",
+    "publisher": "Publisher 16",
+    "avarageRating": 4,
+    "totalRatings": 28,
+    "totalReviews": 5,
+    "price": 47,
+    "tags": [
+      "Tag 16"
+    ],
+    "category": "Category 16",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 9,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "4",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "5",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 0
+  },
+  {
+    "id": "17",
+    "title": "Book 17",
+    "description": "Description of Book 17",
+    "author": "Author 17",
+    "publisher": "Publisher 17",
+    "avarageRating": 3,
+    "totalRatings": 63,
+    "totalReviews": 13,
+    "price": 39,
+    "tags": [
+      "Tag 17"
+    ],
+    "category": "Category 17",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 10,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "4",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 3
+  },
+  {
+    "id": "18",
+    "title": "Book 18",
+    "description": "Description of Book 18",
+    "author": "Author 18",
+    "publisher": "Publisher 18",
+    "avarageRating": 1,
+    "totalRatings": 80,
+    "totalReviews": 28,
+    "price": 39,
+    "tags": [
+      "Tag 18"
+    ],
+    "category": "Category 18",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": true,
+    "numberOfCopies": 6,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "4",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "5",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 0
+  },
+  {
+    "id": "19",
+    "title": "Book 19",
+    "description": "Description of Book 19",
+    "author": "Author 19",
+    "publisher": "Publisher 19",
+    "avarageRating": 2,
+    "totalRatings": 76,
+    "totalReviews": 15,
+    "price": 12,
+    "tags": [
+      "Tag 19"
+    ],
+    "category": "Category 19",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": false,
+    "numberOfCopies": 4,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "3",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "4",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 0
+  },
+  {
+    "id": "20",
+    "title": "Book 20",
+    "description": "Description of Book 20",
+    "author": "Author 20",
+    "publisher": "Publisher 20",
+    "avarageRating": 5,
+    "totalRatings": 97,
+    "totalReviews": 41,
+    "price": 24,
+    "tags": [
+      "Tag 20"
+    ],
+    "category": "Category 20",
+    "language": "English",
+    "createdAt": "2023-06-14T07:23:59.186Z",
+    "updatedAt": "2023-06-14T07:23:59.186Z",
+    "isAvailable": false,
+    "numberOfCopies": 2,
+    "borrowDetails": [
+      {
+        "borrowedBy": "1",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      },
+      {
+        "borrowedBy": "2",
+        "borrowedAt": "2023-06-14T07:23:59.186Z",
+        "dueDate": "2023-06-14T07:23:59.186Z"
+      }
+    ],
+    "timesBorrowed": 4
+  }
+]
