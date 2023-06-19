@@ -6,8 +6,8 @@
   "scripts": {
     "test": "rm -rf ./dist && tsc && jest",
     "build": "rm -rf ./dist && tsc",
-    "start:dev": "ts-node src/main.ts",
-    "start": "npm run build && node dist/main.js"
+    "start:dev": "ts-node src/index.ts",
+    "start": "npm run build && node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -46,8 +46,8 @@
     "@entities": "dist/entities/",
     "@dtos": "dist/types/DTOs/",
     "@config": "dist/utils/config/",
+    "@enums": "dist/types/Enums/",
     "@utils": "dist/utils/"
-
   },
   "dependencies": {
     "chalk": "^5.2.0",

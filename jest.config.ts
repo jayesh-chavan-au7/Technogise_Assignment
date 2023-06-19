@@ -94,6 +94,7 @@ export default {
     '^@entity/(.*)$': '<rootDir>/src/entity/$1',
     '^@controller/(.*)$': '<rootDir>/src/controller/$1',
     '^@dtos/(.*)$': '<rootDir>/src/types/DTOs/$1',
+    '^@enums/(.*)$': '<rootDir>/src/types/Enums/$1',
     '^@config/(.*)$': '<rootDir>/src/utils/config/$1',
     '^@utils/(.*)$': '<rootDir>/src/utils/$1',
   },

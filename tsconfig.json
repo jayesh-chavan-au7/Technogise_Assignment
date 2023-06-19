@@ -121,11 +121,14 @@
       "@dtos/*": [
         "./src/types/DTOs/index.ts"
       ],
+      "@enums/*": [
+        "./src/types/Enums/index.ts"
+      ],
       "@config/*": [
-        "src/utils/config/index.ts"
+        "./src/utils/config/index.ts"
       ],
       "@utils/*": [
-        "src/utils/index.ts"
+        "./src/utils/index.ts"
       ],
       "*": [
         "node_modules/*",

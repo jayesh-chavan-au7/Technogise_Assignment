@@ -1,8 +1,12 @@
 import 'reflect-metadata';
-import { bookController } from '@controller/';
+import { container } from 'tsyringe';
+import { BookController } from '@controller/';
 import books from '../../../MOCK/BOOK_MOCK.json';
 
 describe('borrowBook controller', () => {
+
+  const bookController = container.resolve(BookController);
+
   it('should return borrowed book', async () => {
     const borrowedAt = new Date();
     const dueDate = new Date();
