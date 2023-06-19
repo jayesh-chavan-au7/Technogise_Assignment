@@ -1,8 +1,11 @@
 import 'reflect-metadata';
-import { bookController } from '@controller/';
+import { container } from 'tsyringe';
+import { BookController } from '@controller/';
 import books from '../../../MOCK/BOOK_MOCK.json';
 
 describe('getAllBooks controller', () => {
+  const bookController = container.resolve(BookController);
+
   it('should return books without any filter', async () => {
     const result = await bookController.getAllBooks({
       filter: {},
